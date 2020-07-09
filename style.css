@@ -1,0 +1,48 @@
+.container{
+    margin-bottom: 70px;
+}
+header{
+    background-image: url("images/header-bg.png");
+    background-size: cover;    
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.buy-now-button{
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 4%;
+}
+.smartphone h2{
+    margin: 50px;
+}
+.laptop h2{
+    margin: 50px;
+}
+.catagorie-name{
+    font-size: x-large;
+    font-weight: bold;
+}
+.see-all{
+    color: orange;
+    font-weight: bold;
+}
+.card{
+    box-shadow: 15px 15px 25px lightgray;
+    border-radius: 15px;
+}
+.card-body{
+    text-align: center;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    text-align: center;
+    margin-bottom: 25px;
+}
