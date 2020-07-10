@@ -8,6 +8,20 @@ header{
 .carousel-item{
     padding: 20px 40px;
 }
+.carousel-indicators li{
+    background-color: grey;
+    height: 5px;
+    border-radius: 40px;
+}
+.carousel-indicators .active{
+    background-color: orange;
+}
+.carousel-inner{
+    background-image: url("images/best_products.jpg");
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: 5%;   
+}
 .buy-now-button{
     background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
     color: #fff;
@@ -16,13 +30,14 @@ header{
     padding: 9px 25px;
     cursor: pointer;
 }
-.carousel-control-prev, .carousel-control-next{
-    width: 4%;
+.banner-button{
+    margin-top: 80px;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
-.smartphone h2{
+#smartphone h2{
     margin: 50px;
 }
-.laptop h2{
+#laptop h2{
     margin: 50px;
 }
 .catagorie-name{
@@ -45,4 +60,49 @@ header{
     border-top: none;
     text-align: center;
     margin-bottom: 25px;
+} 
+.categories{
+    text-align: center;
+    margin-top: 10%;
+}
+#cat_hr{
+    width: 20px;
+    margin: 0px auto 50px auto;
+    padding: 3px 40px;
+    background-image: linear-gradient(90deg, #ffd280, orange);
+    border-radius: 30px;
+}
+.cat_bag{
+    margin: 10% 0%;
+    padding: 20%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px #cecece;
+}
+.cat_beauty{
+    margin: 10% 0%;
+    padding: 20%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px #cecece;
+}
+.cat_shoe{
+    margin: 10% 0%;
+    padding: 20%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px  #cecece;
+}
+.cat img{
+    width: 70%;
+    margin: 0px auto;
+}
+.cat_basket:hover{
+    transform: scale(1.02);
+} 
+.card:hover{
+    transform: scale(1.02);
 }
